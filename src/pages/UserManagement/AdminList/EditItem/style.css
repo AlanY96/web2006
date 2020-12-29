@@ -1,0 +1,14 @@
+.UsersList-handle .plusIcon{
+    float:right;
+    cursor:pointer;
+    line-height:20px;
+}
+.UsersList-handle .extraInfo{
+    background:#eee;
+    padding:10px 20px!important;
+    width:90%!important;
+    margin:20px auto;
+    vertical-align:center;
+    line-height:20px;
+    border-radius:2px;
+}

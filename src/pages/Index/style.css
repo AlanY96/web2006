@@ -1,0 +1,86 @@
+.ant-tabs-bar {
+  margin: 10px;
+}
+
+.ant-layout-sider-children {
+  height: calc(100vh - 50px);
+  background: #001529;
+}
+
+.ant-layout-sider .ant-layout-sider-dark {
+  height: 100vh;
+  background: #001529;
+}
+
+.user-topmenus {
+  display: flex;
+  margin-left: 30px;
+}
+
+.user-topmenus>div {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.user-topmenus>div:hover {
+  background: #28BED2;
+}
+
+.bgtopmenus {
+  background: #0896A9;
+}
+
+.user-bar {
+  display: flex;
+  margin-right: 30px;
+}
+
+.user-info {
+  font-size: 14px;
+  border: none;
+  background: none !important;
+  color: #fff !important;
+  line-height: 50px
+}
+
+.quit-button {
+  margin-left: 10px;
+  font-size: 14px;
+  border: none;
+  background: none !important;
+  color: #fff !important;
+  line-height: 50px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  background: #0ab4cb;
+  padding: 0;
+  font-weight: bold;
+  color: #fff;
+  height: 50px;
+}
+
+.sys-ifo {
+  color: #fff;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.content-header {
+  background: #fff;
+  padding: 0;
+  height: 39px;
+  position: relative;
+}
+
+.content-content {
+  height: auto;
+  margin: 20px;
+  margin-top: 10px;
+  background: none;
+  overflow: auto;
+}

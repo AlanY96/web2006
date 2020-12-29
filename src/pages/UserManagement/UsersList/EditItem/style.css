@@ -1,0 +1,22 @@
+.UsersList-handle .plusIcon {
+  float: right;
+  cursor: pointer;
+  line-height: 20px;
+}
+.UsersList-handle .extraInfouserlist {
+  background: #eee;
+  padding: 10px 20px !important;
+  margin: 20px 20px 20px 0;
+  vertical-align: center;
+  line-height: 20px;
+  border-radius: 2px;
+  width: 100%;
+}
+:global(.ant-input-number) {
+  width: 100%;
+}
+:global(.ant-image-img) {
+  width: 104px;
+  height: 104px;
+  object-fit: contain;
+}

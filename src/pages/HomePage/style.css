@@ -1,0 +1,38 @@
+.HomePage .topBar {
+  float: left;
+  width: 100%;
+  border-radius: 4px;
+  background: #fff;
+  padding: 14px;
+  position: relative;
+  cursor: pointer;
+}
+.HomePage .noticeBox {
+  float: left;
+  width: 98%;
+  overflow: hidden;
+}
+.HomePage .noticeBox span {
+  display: block;
+  float: right;
+  white-space: nowrap;
+}
+.HomePage .topBarIcon {
+  color: #ff9f40;
+  font-size: 16px;
+  display: block;
+  width: 2%;
+  padding: 4px;
+  float: left;
+}
+.HomePage .topBarButton {
+  background: #ff9f40;
+  color: #fff;
+  border: none;
+  float: right;
+}
+.orderReportoption {
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: #fff;
+}
