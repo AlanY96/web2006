@@ -379,23 +379,5 @@ RwddApi.see = (id) => axios.get(`job/${id}`);
 export const RwddLogApi = {};
 RwddLogApi.getPage = (params) => getPageApi('job-log/list', params);
 
-/* *************************** 订餐管理 ***********************/
-export const orderingmealmanagementApi = {};
-orderingmealmanagementApi.getPage = (params)=>getPageApi('cpk/selectCpPage',params)
-// orderingmealmanagementApi.getList = (params)=>axios.get('cpk',params)
-orderingmealmanagementApi.change = (id) => axios.del(`cpk/${id}`)
-orderingmealmanagementApi.delete = (id) => deleteDetailApi('cpk/delete',id)
-orderingmealmanagementApi.put = (params) => putDetailApi('cpk/update', params);
-orderingmealmanagementApi.get = (id) => getDetailApi('cpk/selectCpBycpId', id);
-orderingmealmanagementApi.post = (params) => postDetailApi('cpk/createCpk', params);
-// 查 -- 分页
-export const pageSizeChangeApi = (url,size,current) => {
-   let params={
-    size:size,
-    current:current
-  }
-  
-  return axios.post(url, params);
-};
-orderingmealmanagementApi.pageSizeChange = (size,current) => pageSizeChangeApi('cpk/selectCpPage',size,current);
+
 
