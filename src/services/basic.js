@@ -379,6 +379,7 @@ RwddApi.see = (id) => axios.get(`job/${id}`);
 export const RwddLogApi = {};
 RwddLogApi.getPage = (params) => getPageApi('job-log/list', params);
 
+<<<<<<< HEAD
 /* *************************** 订餐管理 ***********************/
 export const orderingmealmanagementApi = {};
 orderingmealmanagementApi.getPage = (params)=>getPageApi('cpk/selectCpPage',params)
@@ -398,4 +399,7 @@ export const pageSizeChangeApi = (url,size,current) => {
   return axios.post(url, params);
 };
 orderingmealmanagementApi.pageSizeChange = (size,current) => pageSizeChangeApi('cpk/selectCpPage',size,current);
+=======
+
+>>>>>>> fc86f47f5bab2f87c569e90568135db0b8c5f789
 
