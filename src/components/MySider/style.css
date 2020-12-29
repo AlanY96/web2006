@@ -1,0 +1,77 @@
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.ant-menu-dark .ant-menu-submenu-selected {
+  color: rgba(255, 255, 255, 0.8);
+}
+.ant-menu-submenu-title img {
+  opacity: 0.8;
+}
+.ant-menu-submenu-title:hover img {
+  opacity: 1;
+}
+.ant-menu-submenu-title {
+  transition: color 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+    border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+    background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+    padding 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+    filter 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+img {
+  /* width: 20px; */
+  /* height: 20px; */
+  /* margin-top: -4px; */
+  /* margin-right: 5px; */
+}
+.subMenuIcon {
+  width: 20px;
+  height: 20px;
+  margin-top: -4px;
+  margin-right: 5px;
+}
+.ant-layout-sider {
+  max-width: 160px !important;
+  min-width: 160px !important;
+}
+
+/* img:hover{
+  opacity: 0;
+  filter:Alpha(opacity=40);
+  border:1px solid red;
+} */
+/* 以下是根据ui给的图来改的样式 待定 用时启用即可 */
+/* .ant-layout-sider{
+  background: #3e495f;
+}
+.ant-menu-dark{
+  background: #3e495f;
+}
+.ant-menu-dark .ant-menu-inline.ant-menu-sub{
+  background: #525e76;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected{
+  background: #525e76;
+  color:#0ab4cb;
+  list-style: initial !important;
+  list-style-type:disc !important
+}
+.ant-menu-dark .ant-menu-item-selected > a, .ant-menu-dark .ant-menu-item-selected > a:hover{
+  color:#0ab4cb;
+}
+.ant-menu-dark .ant-menu-submenu-open{
+  background:#0ab4cb;
+} */

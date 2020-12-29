@@ -1,0 +1,26 @@
+.ant-table-wrapper {
+    border:1px solid #d8d8d8;
+    border-radius:4px;
+}
+.ant-table-wrapper td{
+    cursor: pointer;
+}
+.ant-table-pagination.ant-pagination{
+    margin-right:30px!important;
+}
+.ant-modal-close-x{
+    width:50px !important;
+    height:50px !important;
+    line-height:50px !important;
+}
+.ant-modal-footer{
+    margin-top:20px
+}
+.ant-menu-sub.ant-menu-inline > .ant-menu-item{
+    height:25px!important;
+    line-height:25px!important;
+}
+.ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title{
+    height:30px!important;
+    line-height:30px!important;
+}

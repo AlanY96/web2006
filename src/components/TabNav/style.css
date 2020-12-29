@@ -1,0 +1,22 @@
+.TabNav .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab:nth-child(1) .ant-tabs-close-x{
+    display:none !important
+}
+.TabNav .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab{
+    background: none;
+    border: none;
+}
+.TabNav .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active{
+    border-bottom: 3px solid #0ab4cb
+}
+.TabNav .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab{
+    padding: 0px 4px;
+    margin: 0px 16px;
+    line-height:40px;
+}
+.TabNav .ant-tabs-bar{
+    border-bottom: none;
+    margin:0px !important;
+}
+.TabNav .ant-tabs-nav-container{
+    font-size: 14px;
+}

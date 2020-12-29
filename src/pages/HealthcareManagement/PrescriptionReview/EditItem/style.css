@@ -1,0 +1,16 @@
+.extraInfopresc {
+  background: #eee;
+  padding: 10px 20px !important;
+  margin: 20px 0 20px 0;
+  vertical-align: center;
+  line-height: 20px;
+  border-radius: 2px;
+}
+.ppsff {
+  background: #f1f1f1;
+  padding: 14px 20px;
+  text-align: center;
+}
+:global(.ant-input-number) {
+  width: 100%;
+}

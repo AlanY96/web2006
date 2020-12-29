@@ -1,0 +1,39 @@
+.UsersGroup-handle .allocation{
+    width: 90%;
+    margin: 0 auto;
+    padding:20px;
+    height:350px;
+    /* overflow: hidden; */
+    overflow:auto;
+    border:1px solid #d8d8d8;
+}
+.UsersGroup-handle .tree{
+    height:auto;
+    margin: 0 auto;
+    padding:10px;
+    background:#fff;
+    border-radius:4px;
+    /* border-right:1px solid #d8d8d8; */
+    /* width:30%; */
+    height:340px;
+    /* overflow:auto; */
+}
+.UsersGroup-handle #bz{
+    width:612px;
+}
+.UsersGroup-handle .transfer{
+    float:left;
+    margin-left:10px;
+}
+.UsersGroup-handle .proButton{
+    width:470px;
+    margin-bottom:10px;
+    position: relative;
+}
+.UsersGroup-handle .addedPro{
+    position: absolute;
+    right:80px;
+}
+.UsersGroup-handle .ant-transfer-list-search{
+    width:210px!important;
+}
