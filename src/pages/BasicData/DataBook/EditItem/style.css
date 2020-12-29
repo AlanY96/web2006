@@ -1,0 +1,24 @@
+.DataBook .ant-table-placeholder{
+    display:none;
+}
+.DataBook .ant-table th{
+    width:22.5%!important;
+    text-align:center;
+}
+.DataBook .ant-table th:nth-child(4){
+    width:10%!important;
+}
+.DataBook .ant-table td{
+    width:22.5%!important;
+    text-align:center;
+}
+.DataBook .ant-table td .ant-input{
+    width:100%;
+}
+.DataBook .ant-table td:nth-child(4){
+    width:10%!important;
+}
+.DataBook .ant-table .ant-row{
+    display: flex;
+    padding:0px 5px;
+}

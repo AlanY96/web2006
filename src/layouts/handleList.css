@@ -1,0 +1,174 @@
+.handleList .ant-form-item {
+  margin-bottom: 0px;
+}
+.input-group {
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  padding: 20px;
+  width: 98.2%;
+  margin: 10px auto;
+  background: #fff;
+}
+.handleList .ant-row {
+  display: flex;
+  padding: 0px 20px;
+  margin-bottom: 2px;
+}
+.handleList .ant-form-item-label {
+  line-height: 35px;
+  min-width: 80px !important;
+}
+.handleList .ant-input-group .ant-input,
+.handleList .ant-input-group .ant-select-selection {
+  background: #f0f2f5;
+}
+.handleList .ant-input-group .ant-select {
+  width: 100%;
+}
+.handleList .ant-form-item-control-wrapper {
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.handleList .ant-modal-body {
+  padding: 0px !important;
+}
+.handleList .formHeader {
+  height: 50;
+  background: #dcdcdc;
+  color: #000000d9;
+  margin: 20px 0px;
+  border-radius: 4px;
+}
+.handleList .handle-title {
+  text-align: center;
+  display: inline-block;
+  vertical-align: center;
+  font-size: 18px;
+  line-height: 50px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+/* .handle-header{
+    display:inline-block;
+    margin-right:4px;
+} */
+
+/* 特别改动 */
+.handleList .ant-form-item-control {
+  line-height: 30px !important;
+}
+
+/*补偿计算得分*/
+.Bcjsdf .ant-form {
+  padding: 0 20px;
+}
+.Bcjsdf .ant-form-item-control {
+  line-height: 34.8px !important;
+}
+.Bcjsdf .ant-form .ant-row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.Bcjsdf .ant-form .ant-row > div {
+  padding: 0 !important;
+}
+
+/*系数指标*/
+.SetZb-handle .ant-form-item-label,
+.SetPrice-handle .ant-form-item-label {
+  min-width: 90px;
+  flex-grow: 0;
+}
+.Quantity .zbdm .ant-row {
+  padding: 0px !important;
+}
+.Quantity .bh .ant-row {
+  padding: 0px 0px 0px 20px !important;
+}
+.Quantity .ant-form-item-label {
+  line-height: 30px;
+  min-width: 110px !important;
+}
+
+/*隐藏 inputNumber的右侧按钮*/
+.removeCount form .ant-input-number-handler-wrap {
+  display: none !important;
+}
+/*放大按钮*/
+.ant-modal-close1 {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  z-index: 10;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.45);
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+/*报表第一行*/
+.table-title .ant-table-thead > tr:first-child > th:first-child > span {
+  font-size: 25px;
+}
+/*导出按钮*/
+#test-table-xls-button {
+  background: #0ab4cb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0 15px;
+  height: 32px;
+  cursor: pointer;
+}
+/*隐藏*/
+.hide {
+  display: none;
+}
+/* 首页的滚动*/
+.carbox {
+  border: 1px solid rgb(235, 237, 240);
+  border-radius: 4px;
+  height: 35px;
+  position: relative;
+}
+.carbox > i {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  font-size: 20px;
+}
+.car {
+  position: relative;
+  margin-left: 35px;
+  width: calc(100% - 35px);
+  height: 100%;
+  overflow: hidden;
+}
+.car > div {
+  position: absolute;
+  top: 6px;
+  height: 20px;
+  font-size: 14px;
+  color: #001529;
+  overflow: hidden;
+}
+.car > div > .cursor {
+  cursor: pointer;
+}
+.colorC1484E {
+  color: #c1484e;
+}
+:global(.ant-picker) {
+  width: 100%;
+}
+:global(.ant-form-item) {
+  margin-right: 0;
+}
